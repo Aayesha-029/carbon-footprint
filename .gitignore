@@ -1,5 +1,5 @@
 ﻿# Exclude backend until secrets are cleaned
-backend/
+
 # Dependencies
 node_modules/
 **/node_modules/
@@ -44,5 +44,4 @@ target/
 *.jar
 *.war
 *.class
-
-backend/
+backend/src/main/resources/application.properties

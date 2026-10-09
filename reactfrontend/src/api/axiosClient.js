@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance
 const axiosClient = axios.create({
-  baseURL: 'http://localhost:8080/api',
+  baseURL: 'https://carbon-footprint-back.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
